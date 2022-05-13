@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(63, 133, 238);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imag {
+  width: 100px;
+  position: relative;
+  left: 10px;
+  bottom: 362px;
+}
+h1 {
+  text-align: center;
+  color: aliceblue;
+}
+h2 {
+  color: rgb(231, 241, 90);
+}
+div {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+button {
+  background-color: rgb(116, 146, 243);
+  color: aliceblue;
+}
+button:hover {
+  background-color: rgb(64, 103, 233);
+}
+#tubo {
+  width: 5px;
+}
+.pos {
+  position: relative;
+  bottom: 362px;
+}

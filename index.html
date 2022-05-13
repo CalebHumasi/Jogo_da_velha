@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jogo da velha</title>
+  </head>
+  <body>
+    <div>
+      <h1 id = 'jogo'>Jogo da velha!</h1>
+      <img src="Imagens/grade.png" alt="">
+      <p></p>
+      <img src="Imagens/Quadrado.png" alt="a" onclick="pegarNum('1')" id="q1" class="imag" onmouseenter="ativar(1)" onmouseleave="desativar(1)"/>⠀⠀
+      <img src="Imagens/Quadrado.png" alt="b" onclick="pegarNum('2')" id="q2" class="imag" onmouseenter="ativar(2)" onmouseleave="desativar(2)" />⠀⠀
+      <img src="Imagens/Quadrado.png" alt="c" onclick="pegarNum('3')" id="q3" class="imag" onmouseenter="ativar(3)" onmouseleave="desativar(3)" />⠀⠀
+      <p></p>
+      <img src="Imagens/Quadrado.png" alt="d" onclick="pegarNum('4')" id="q4" class="imag" onmouseenter="ativar(4)" onmouseleave="desativar(4)" />⠀⠀
+      <img src="Imagens/Quadrado.png" alt="e" onclick="pegarNum('5')" id="q5" class="imag" onmouseenter="ativar(5)" onmouseleave="desativar(5)" />⠀⠀
+      <img src="Imagens/Quadrado.png" alt="f" onclick="pegarNum('6')" id="q6" class="imag" onmouseenter="ativar(6)" onmouseleave="desativar(6)" />⠀⠀
+      <p></p>
+      <img src="Imagens/Quadrado.png" alt="g" onclick="pegarNum('7')" id="q7" class="imag" onmouseenter="ativar(7)" onmouseleave="desativar(7)" />⠀⠀
+      <img src="Imagens/Quadrado.png" alt="h" onclick="pegarNum('8')" id="q8" class="imag" onmouseenter="ativar(8)" onmouseleave="desativar(8)" />⠀⠀
+      <img src="Imagens/Quadrado.png" alt="i" onclick="pegarNum('9')" id="q9" class="imag" onmouseenter="ativar(9)" onmouseleave="desativar(9)" />⠀⠀
+      <h2 id = 'vez' class = "pos">Vez de X</h2>
+      <button onclick="ReiniciarJogo()" class = "pos">Reiniciar Jogo</button>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
